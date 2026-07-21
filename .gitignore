@@ -1,0 +1,11 @@
+.vercel
+node_modules/
+.DS_Store
+.vscode/
+dist/
+public/XYZ_Peta_Kesesuaian/
+public/**/*.qgz
+public/**/*.xml
+public/**/*.geojsonl
+data/
+qgis/
