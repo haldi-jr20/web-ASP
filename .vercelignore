@@ -5,7 +5,6 @@ public/**/*.qgz
 public/**/*.xml
 public/**/*.geojsonl
 data
-qgis
 **/*.tile
 **/*.mbtiles
 .DS_Store
