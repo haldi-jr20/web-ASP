@@ -4,7 +4,7 @@ public/XYZ_Peta_Kesesuaian
 public/**/*.qgz
 public/**/*.xml
 public/**/*.geojsonl
-data
+/data
 **/*.tile
 **/*.mbtiles
 .DS_Store

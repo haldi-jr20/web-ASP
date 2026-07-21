@@ -329,10 +329,13 @@ export function DashboardPeta() {
         style: (feature) => {
           const name  = String(feature?.properties?.["NAME_3"] ?? "");
           const score = scoreMap[name];
+          if (!score) {
+            return { stroke: false, fill: false };
+          }
           const inFilter = filterSet.has(name);
           return {
             pane:        "districtPane",
-            fillColor:   score ? score.color : "transparent",
+            fillColor:   score.color,
             fillOpacity: inFilter ? 0.35 : 0.05,
             color:       "#ffffff",
             weight:      1.5,
