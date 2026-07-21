@@ -1,12 +1,12 @@
 import { Globe, CheckSquare, Users, ExternalLink } from "lucide-react";
 
 const team = [
-  { name: "Ahmad Fauzi, S.T.", role: "Ketua Tim / GIS Analyst", icon: "👨‍💻", kota: "Sorong" },
-  { name: "Siti Rahmawati, S.Si.", role: "Data Scientist / Remote Sensing", icon: "👩‍🔬", kota: "Manokwari" },
-  { name: "Dedi Santoso, S.P.", role: "Surveyor Lapangan", icon: "🧭", kota: "Sorong" },
-  { name: "Nurul Hidayah, S.Kom.", role: "Web Developer / Data Viz", icon: "👩‍💻", kota: "Sorong" },
-  { name: "Rina Melati, S.Ds.", role: "UI/UX Designer", icon: "👩‍🎨", kota: "Sorong" },
-  { name: "Putri Sari, S.E.", role: "Data Entry / Administrasi", icon: "👩‍💼", kota: "Sorong" },
+  { name: "Ahmad Aras", role: "Ketua Tim", icon: "👨‍💻", kota: "Sorong" },
+  { name: "Haldi A. Rumadedey", role: "Anggota Tim", icon: "👨‍🔬", kota: "Sorong" },
+  { name: "Saniyyah H. Rosdiani", role: "Anggota Tim", icon: "👩‍🔬", kota: "Sorong" },
+  { name: "Nurul Intania Madi", role: "Anggota Tim", icon: "👩‍💻", kota: "Sorong" },
+  { name: "Amanda C. Nuraini", role: "Anggota Tim", icon: "👩‍🎨", kota: "Sorong" },
+  { name: "Cia", role: "Anggota Tim", icon: "👩‍💼", kota: "Sorong" },
 ];
 
 export function TentangMetodologi() {
@@ -251,7 +251,7 @@ export function TentangMetodologi() {
               marginBottom: "14px",
             }}
           >
-            Fauzi, A., Rahmawati, S., Santoso, D., Hidayah, N., dkk. (2024).{" "}
+            Aras, A., Rumadedey, H. A., Rosdiani, S. H., Madi, N. I., dkk. (2024).{" "}
             <em style={{ color: "#4caf50" }}>
               GeoKuliner Sorong: Sistem Informasi Geografis untuk Analisis Spasial Ekosistem
               Kuliner Kota Sorong, Papua Barat Daya.
